@@ -1,11 +1,11 @@
 # Site settings
-title: Solyom Andras
+title: András Sólyom
 email: solyom.andras@gmail.com
 url: https://solyoma.dev
 description: "Solyom Andras personal site."
 keywords: "solyom,andras"
 skills: "Software Developer"
-meta_author: Solyom Andras
+meta_author: András Sólyom
 
 # Google webmaster tools
 google_verify:
@@ -52,8 +52,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Budapest
+  - line: Hungary
 
 # Credits content
 credits: 'Test credits.'
