@@ -3,7 +3,7 @@ title: András Sólyom
 email: contact@solyoma.dev
 url: https://solyoma.dev
 description: "Solyom Andras personal site."
-keywords: "solyom,andras"
+keywords: "solyom,andras,solyoma,soa"
 skills: "Software Developer"
 meta_author: András Sólyom
 
@@ -25,14 +25,14 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 8a9094 #8a9094
+  primary-rgb: "138,144,148" #"128,179,255"
+  secondary: 34495e #FD6E8A
+  secondary-dark: 233140 #233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Andras Solyom
+  copyright: András Sólyom
   location: Location
   social: Socials
   credits: Credits
@@ -41,7 +41,7 @@ footer:
 social:
   # - title: twitter
     # url: http://twitter.com/jekyllrb
-  - title: email
+  - title: envelope
     url: contact@solyoma.dev
   - title: facebook
     url: https://www.facebook.com/solyom.andras
