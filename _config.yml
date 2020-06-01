@@ -1,6 +1,6 @@
 # Site settings
 title: András Sólyom
-email: solyom.andras@gmail.com
+email: contact@solyoma.dev
 url: https://solyoma.dev
 description: "Solyom Andras personal site."
 keywords: "solyom,andras"
@@ -34,21 +34,22 @@ color:
 footer:
   copyright: Andras Solyom
   location: Location
-  social: Around the Web
+  social: Socials
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  # - title: twitter
+    # url: http://twitter.com/jekyllrb
+  - title: email
+    url: contact@solyoma.dev
   - title: facebook
     url: https://www.facebook.com/solyom.andras
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/andrassolyom/
   - title: github
     url: http://github.com/solyom-a
+
 
 # Postal address (add as many lines as necessary)
 address:
