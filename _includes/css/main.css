@@ -59,11 +59,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{ site.color.light }};
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #{{ site.color.light }};
     background-color: #{{ site.color.primary }};
 }
 
@@ -73,7 +73,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: #{{ site.color.light }};
 }
 
 .img-centered {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{ site.color.light }};
     background: #{{ site.color.primary }};
 }
 
@@ -112,7 +112,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        padding-bottom:  100px;
     }
 
     header .intro-text .name {
@@ -137,10 +137,12 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        color: #{{ site.color.light }};
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
+        color: #{{ site.color.light }};
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -166,13 +168,25 @@ header .intro-text .skills {
     outline: 0;
 }
 
+.navbar .navbar-nav li a {
+    color: #{{ site.color.light }};
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #{{ site.color.light }};
+}
+
+.navbar-default .navbar-brand {
+    color: #{{ site.color.light }};
+}
+
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
@@ -181,7 +195,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{ site.color.light }};
     background: #{{ site.color.primary }};
 }
 
@@ -193,6 +207,14 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio {
+    background: #{{ site.color.light }};
+}
+
+#contact {
+    background: #{{ site.color.light }};
 }
 
 #portfolio .portfolio-item {
@@ -230,7 +252,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.light }};
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -254,9 +276,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.light }};
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.light }};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -265,9 +287,9 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.light }};
     color: #{{ site.color.primary }};
-    background: #fff;
+    background: #{{ site.color.light }};
 }
 
 .floating-label-form-group {
@@ -327,7 +349,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #{{ site.color.light }};
 }
 
 footer h3 {
@@ -335,16 +357,16 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 25px;
     background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding: 10px 0;
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -352,7 +374,7 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #{{ site.color.light }};
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -395,6 +417,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background: #{{ site.color.light }};
 }
 
 .portfolio-modal .modal-content h2 {
@@ -420,7 +443,7 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.portfolio-modal .close-modal: {
     opacity: .3;
 }
 
@@ -454,4 +477,10 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #{{ site.color.light }};
+    background-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary }};
 }

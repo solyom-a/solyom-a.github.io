@@ -29,6 +29,7 @@ color:
   primary-rgb: "138,144,148" #"128,179,255"
   secondary: 34495e #FD6E8A
   secondary-dark: 233140 #233140 #A2122F
+  light: ecf0f1
 
 # Footer settings
 footer:
@@ -42,7 +43,7 @@ social:
   # - title: twitter
     # url: http://twitter.com/jekyllrb
   - title: envelope
-    url: contact@solyoma.dev
+    url: mailto:contact@solyoma.dev
   - title: facebook
     url: https://www.facebook.com/solyom.andras
   - title: linkedin
