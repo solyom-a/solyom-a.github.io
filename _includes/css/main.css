@@ -172,6 +172,11 @@ header .intro-text .skills {
     color: #{{ site.color.light }};
 }
 
+/*.navbar .navbar-nav li a:hover {
+    background-color: #{{ site.color.light }};
+    color: #{{ site.color.secondary }};
+}*/
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -368,6 +373,16 @@ footer .footer-col {
 footer .footer-below {
     padding: 10px 0;
     background-color: #{{ site.color.secondary-dark }};
+}
+
+footer 
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary }};
+    background: #{{ site.color.light }};
 }
 
 .btn-social {

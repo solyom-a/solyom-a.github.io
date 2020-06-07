@@ -19,21 +19,21 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
+                                {% if post.appstore %}
                                     <li>AppStore:
-                                        <strong><a href="https://solyoma.dev">{{ post.client }}</a>
+                                        <strong><a href="https://solyoma.dev">{{ post.appstore }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="https://solyoma.dev">{{ post.project-date }}</a>
+                                {% if post.price %}
+                                    <li>Price:
+                                        <strong><a href="https://solyoma.dev">{{ post.price }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.category %}
+                                {% if post.platform %}
                                     <li>Platforms:
-                                        <strong><a href="https://solyoma.dev">{{ post.category }}</a>
+                                        <strong><a href="https://solyoma.dev">{{ post.platform }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
