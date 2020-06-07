@@ -2,8 +2,8 @@
 layout: default
 modal-id: 3
 date: 2014-07-19
-img: TimePeak.png
-alt: image-alt
+img: TimePeek.png
+alt: Time Peek
 price: $0.99
 appstore: Soon
 platform: WatchOS
