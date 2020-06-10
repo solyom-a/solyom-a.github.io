@@ -5,7 +5,9 @@ date: 2014-07-19
 img: TimePeek.png
 alt: Time Peek
 price: $0.99
-appstore: Soon
+appstore: AppStore
+appstorelink: https://apps.apple.com/us/app/time-peek/id1517401243
+available: yes
 platform: WatchOS
 description: The missing Apple Watch time complication. Configurable, and compatible with all complication types.
 ---

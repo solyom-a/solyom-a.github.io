@@ -20,8 +20,8 @@
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.appstore %}
-                                    <li>AppStore:
-                                        <strong><a href="https://solyoma.dev">{{ post.appstore }}</a>
+                                    <li>Download:
+                                        <strong><a href="{{ post.appstorelink}}">{{ post.appstore }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
@@ -38,6 +38,9 @@
                                     </li>
                                 {% endif %}
                             </ul>
+                            {% if post.available %}
+                            <a href="{{ post.appstorelink}}"><img src="img/appstore.svg" height="40px" alt="Available on AppStore"><br /></a>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
