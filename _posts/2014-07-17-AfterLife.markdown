@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-19
+date: 2014-07-17
 img: AfterLife.png
 alt: AfterLife
 price: Free

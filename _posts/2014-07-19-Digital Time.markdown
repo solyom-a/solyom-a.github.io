@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-17
+date: 2014-07-19
 img: DigitalTime.png
 alt: Digital Time
 price: $0.99
