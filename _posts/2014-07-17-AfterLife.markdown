@@ -2,12 +2,12 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: AfterLife.png
-alt: AfterLife
-price: Free
+img: HealthGlance.png
+alt: Health Glance
+price: $0.99
 appstore: AppStore
-appstorelink: https://apps.apple.com/us/app/aferlife/id1519018290
+appstorelink: https://apps.apple.com/us/app/id1533598189
 available: yes
-platform: iOS
-description: Diary meets social network.
+platform: WatchOS
+description: Custom Health complications on your Wactch.
 ---
