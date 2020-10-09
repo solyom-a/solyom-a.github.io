@@ -9,5 +9,5 @@ appstore: AppStore
 appstorelink: https://apps.apple.com/us/app/id1534902360
 available: yes
 platform: WatchOS
-description: Date complication for Apple Watch, with more than 500 possible format combinations.
+description: Custom date complication for Apple Watch, with more than 700 possible format combinations.
 ---
