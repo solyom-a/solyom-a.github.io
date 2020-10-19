@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-17
+date: 2014-07-15
 img: HealthGlance.png
 alt: Health Glance
 price: $0.99

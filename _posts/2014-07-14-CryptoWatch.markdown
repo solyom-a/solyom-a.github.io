@@ -1,7 +1,7 @@
 ---
 layout: default
-modal-id: 4
-date: 2014-07-15
+modal-id: 2
+date: 2014-07-14
 img: CryptoWatch.png
 alt: Crypto Watch
 price: $0.99

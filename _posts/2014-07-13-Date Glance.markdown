@@ -1,7 +1,7 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-14
+modal-id: 1
+date: 2014-07-13
 img: DateGlance.png
 alt: Date Glance
 price: $0.99
