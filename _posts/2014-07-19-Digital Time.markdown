@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 1
 date: 2014-07-19
 img: DigitalTime.png
 alt: Digital Time
