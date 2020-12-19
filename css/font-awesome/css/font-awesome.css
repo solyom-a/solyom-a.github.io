@@ -802,6 +802,9 @@
 .fa-linkedin:before {
   content: "\f0e1";
 }
+.fa-app-store:before {
+  content: "\f36f";
+}
 .fa-rotate-left:before,
 .fa-undo:before {
   content: "\f0e2";
