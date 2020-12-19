@@ -9,5 +9,5 @@ appstore: AppStore
 appstorelink: https://apps.apple.com/us/app/id1531068181
 available: yes
 platform: WatchOS
-description: Digital Time complication for all watch faces.
+description: Digital Time complication for all watch faces with all the customization you need.
 ---
