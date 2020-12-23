@@ -7,7 +7,7 @@ alt: WristControl
 price: $1.99
 appstore: AppStore
 appstorelink: https://apps.apple.com/us/app/id1545454717
-available: no
+available: yes
 platform: WatchOS
 description: HomeKit controls on your wrist.
 ---

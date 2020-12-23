@@ -3,7 +3,7 @@ layout: default
 modal-id: 3
 date: 2014-07-15
 img: DateGlance.png
-alt: Date Glance
+alt: DateGlance
 price: $0.99
 appstore: AppStore
 appstorelink: https://apps.apple.com/us/app/id1534902360
