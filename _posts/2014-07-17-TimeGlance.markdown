@@ -3,7 +3,7 @@ layout: default
 modal-id: 5
 date: 2014-07-17
 img: DigitalTime.png
-alt: Digital Time
+alt: TimeGlance
 price: $0.99
 appstore: AppStore
 appstorelink: https://apps.apple.com/us/app/id1531068181
