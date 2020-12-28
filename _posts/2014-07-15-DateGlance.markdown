@@ -10,4 +10,7 @@ appstorelink: https://apps.apple.com/us/app/id1534902360
 available: yes
 platform: WatchOS
 description: Custom date complication for Apple Watch, with more than 900 possible format combinations.
+website: https://dateglance.solyoma.dev
+go-to-site: yes
+go-to-icon: fa-calendar
 ---

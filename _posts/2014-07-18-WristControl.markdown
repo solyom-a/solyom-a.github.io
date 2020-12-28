@@ -10,4 +10,7 @@ appstorelink: https://apps.apple.com/us/app/id1545454717
 available: yes
 platform: WatchOS
 description: HomeKit controls on your wrist.
+website: https://wristcontrol.solyoma.dev
+go-to-site: yes
+go-to-icon: fa-home
 ---

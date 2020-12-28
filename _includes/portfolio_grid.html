@@ -11,6 +11,16 @@
             <div class="row">
                 {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
+                        {% if post.go-to-site %}
+                        <a href="{{ post.website }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa {{ post.go-to-icon }} fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                        {% else %}
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
@@ -19,8 +29,9 @@
                             </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
+                       {% endif %}
                     </div>
-                {% endfor %}
+                    {% endfor %}
             </div>
         </div>
     </section>

@@ -10,4 +10,7 @@ appstorelink: https://apps.apple.com/us/app/id1533598189
 available: yes
 platform: WatchOS
 description: Custom Health complications on your Wactch.
+website: https://healthglance.solyoma.dev
+go-to-site: yes
+go-to-icon: fa-heart
 ---
