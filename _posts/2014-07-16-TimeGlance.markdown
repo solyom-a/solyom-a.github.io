@@ -1,7 +1,7 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-17
+modal-id: 4
+date: 2014-07-16
 img: DigitalTime.png
 alt: TimeGlance
 price: $0.99
