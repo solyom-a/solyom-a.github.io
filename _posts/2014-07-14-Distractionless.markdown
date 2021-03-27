@@ -9,5 +9,5 @@ appstore: AppStore
 appstorelink: https://apps.apple.com/us/app/distractionless/id1517625282
 available: yes
 platform: WatchOS
-description: Truly distraction free pomodoro timer. Configure and start timer on your watch without your iPhone nearby.
+description: Truly distraction free pomodoro timer. Configure and start timers on your watch without your iPhone nearby.
 ---
