@@ -1,0 +1,4 @@
+TaskGlance apple watch standalone app:
+- does not collect any personal data locally or remotely
+- does not access internet
+- does not modify your reminders
